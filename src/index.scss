@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  @media(max-width: 796px) {
+    font-size: 7px;
+  }
+  @media(max-width: 536px) {
+    font-size: 5px;
+  }
+  @media(max-width: 386px){
+      font-size: 4px;
+  }
+}
+
+body {
+    font-family: sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
